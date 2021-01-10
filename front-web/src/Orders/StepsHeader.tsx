@@ -1,7 +1,9 @@
+import './styles.css';
 
-function StepHeaders() {
+function StepsHeaders() {
     return (
       <header className="orders-steps-container">
+              
 <div className="orders-steps-content">
     <h1 className="steps-title">
         SIGA AS <br /> ETAPAS
@@ -11,6 +13,7 @@ function StepHeaders() {
          <span className="steps-number">1</span>
          Selecione os produtos de localização.
         </li>
+        
         <li>    
         <span className="steps-number">2</span>
          Depois, clique em <strong>"ENVIAR PEDIDO."</strong>
@@ -22,4 +25,4 @@ function StepHeaders() {
     )
 }
 
-export default StepHeaders;
+export default StepsHeaders;
